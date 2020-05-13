@@ -1,0 +1,4 @@
+
+stickybits('#listesliens', {
+    useStickyClasses: true
+});

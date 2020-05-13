@@ -1,0 +1,494 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+/* Animations : Crédits Identity By HTML5*/ 
+	/* Form */
+
+/* Structure générale de la page */
+	/* Fond d'écran */
+	
+html, body, div, span, applet, object,
+	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, a, abbr, acronym, address, big, cite,
+	code, del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var, b,
+	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+	form, label, legend, table, caption, tbody,
+	tfoot, thead, tr, th, td, article, aside,
+	canvas, details, embed, figure, figcaption,
+	header, hgroup, menu, nav, output, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		color: inherit;
+		text-decoration: inherit;
+	}
+
+body
+{
+	width: 100vw;
+}
+
+	/* Header */
+#header
+		{
+		width: 100vw;
+		background-color: rgba(7, 0, 10, 0.7);
+		margin: 0;
+		padding: 0.15em;
+			z-index: 2;
+			position: relative;
+		
+		}
+	#logos
+		{
+		display: flex;
+		justify-content: center;
+		vertical-align: center;
+
+		}
+	.CMBlogo, .CMBtitre
+		{
+		margin-top: 1em;
+		margin-bottom: 0em;
+		}
+
+
+	#listesliens, #listessocialmedia
+		{
+		width: 100vw;
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 0.15em;
+		margin: auto;
+				position: relative;
+				z-index: 2;
+		}
+
+		#listesliens.js-is-sticky
+		{
+		background-color: rgba(14, 22, 43, 0.9);	
+				
+				z-index: 3;
+		}
+
+	#mainfooter
+		{
+		width: 100vw;
+		background-color: rgba(14, 22, 43, 0.9);
+		padding: 0.15em;
+		margin: auto;
+
+		bottom: 0px;
+
+		position: fixed;
+		z-index: 2;	
+		}
+
+	.pucesfooter
+	{
+		list-style-type: none;
+		justify-content: center;
+		display: flex;
+		font-size: 1.0em;
+
+		/* padding-left: 15%;
+		padding-right: 15%; */
+	}
+
+	.credits_lien
+	{
+		margin-right: 15%;
+	}
+
+	.contact_lien
+	{
+		margin-left: 15%;
+	}
+
+	.pucessocialmedia
+	{
+		list-style-type: none;
+		justify-content: center;
+		display: flex;
+		font-size: 1.0em;
+
+
+		margin: auto;
+		width: 20%;
+		border-bottom: 1px solid white;
+	}
+
+	.puces
+	{
+		list-style-type: none;
+		justify-content: space-around;
+		display: flex;
+
+		margin-right: 12%;
+		margin-left: 12%;
+	}
+
+	.pucessm
+	{
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+
+		font-size: 30px;
+		color: white;
+	}
+			.youtube:hover
+			{
+				color: red;
+			}
+			.facebook:hover
+			{
+				color: rgb(66,103,178);
+			}
+			.instagram:hover
+			{
+			color: rgb(214,0,96);
+			}
+
+	
+		/* Mise en page des liens */
+	.liens, .liensvideos, .liensphotos, .liens_footer
+	{
+		font-size: 1.6em;
+		letter-spacing: 0.175em;
+		text-transform: uppercase;
+		
+		text-decoration: none;
+		font-family: "Source Sans Pro", Helvetica, sans-serif; 	
+	}
+
+	.liens_footer
+	{
+		font-size: 1.3em;
+	}
+
+	.liens, .liens_footer
+	{
+	color: white;
+	}
+		.liens:hover
+		{
+			color: #c8cccf;
+		}
+	.liensvideos
+	{
+		color: red;
+	}
+		.liensvideos:hover, .liensphotos:hover
+		{
+			color: white;
+		}
+	.liensphotos
+	{
+		color: orange;
+	}
+
+
+		.youtube:hover
+		{
+			color: red;
+		}
+
+		/* Mise en page des icones */
+
+	/* Main */
+
+#main
+		{
+		width: 60vw;
+		background-color: rgba(7, 0, 10, 0.7);
+		margin: auto;
+		padding-top: 3em;
+		padding-bottom: 1em;
+		padding-right: 2em;
+		padding-left: 2em;
+		border: 0;
+		border-top: 0em;
+		
+		position: relative;
+		z-index: 2;
+
+		text-align: center;
+		color: white;
+		}
+
+#main_other
+		{
+		width: 60vw;
+		background-color: rgba(7, 0, 10, 0.7);
+		margin: auto;
+		padding-top: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		border: 0;
+		border-top: 0em;
+		
+		position: relative;
+		z-index: 2;
+
+		text-align: justify;
+		color: white;
+		}
+
+
+	/* Footer */
+#footer
+		{
+		width: 100vw;
+		background-color: black;
+		}
+
+
+/* Classes : structure individuelle */
+		/* Header individual class */
+.CMBlogo
+		{
+			height: 125px;
+		}
+.CMBtitre
+		{
+			width: 57.5vw;
+		}
+
+
+
+
+/* Footer */
+
+.tipeee
+		{
+			height: 30px;
+		}
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+	/* .CMBtitre
+		{
+			height: 100px;
+		} */
+
+/* Ici, on règle la taille du menu avec tous les liens : photos, vidéos, blabla; */
+		.liens, .liensvideos, .liensphotos
+	{
+			font-size: 1.3em;
+	}
+
+	.puces
+	{
+
+		margin-right: 6%;
+		margin-left: 6%;
+	}
+/* Ici on règle les logos insta, tipeee, blabla */
+	.pucessm
+	{
+		font-size: 22px;
+
+	}
+
+	.tipeee
+		{
+			height: 22px;
+		}
+
+/* Ici on règle le footer */
+.liens_footer
+	{
+		font-size: 1.1em;
+	}
+
+	.credits_lien
+	{
+		margin-right: 15%;
+	}
+
+	.contact_lien
+	{
+		margin-left: 15%;
+	}
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+
+		.liens, .liensvideos, .liensphotos
+	{
+			font-size: 1.2em;
+
+	}
+
+	.puces
+	{
+
+		margin-right: 6%;
+		margin-left: 6%;
+	}
+
+	.pucessm
+	{
+		font-size: 22px;
+
+	}
+
+	.tipeee
+		{
+			height: 22px;
+		}
+
+/* Ici on règle le footer */
+.liens_footer
+	{
+		font-size: 1em;
+	}
+
+	.credits_lien
+	{
+		margin-right: 15%;
+	}
+
+	.contact_lien
+	{
+		margin-left: 15%;
+	}
+
+/* Ici on gère la taille de l'affichage principal main */
+#main, #main_other
+		{
+		width: 70%;
+		
+		padding-top: 1em;
+		padding-bottom: 1em;
+		padding-right: 2em;
+		padding-left: 2em;
+		}
+
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+
+		.liens, .liensvideos, .liensphotos
+	{
+			font-size: 1.1em;
+	}
+
+	.puces
+	{
+
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+
+	.pucessm
+	{
+		font-size: 20px;
+
+	}
+
+	.tipeee
+		{
+			height: 20px;
+		}
+
+	/* Ici on règle le footer */
+.liens_footer
+	{
+		font-size: 0.9em;
+	}
+
+	.credits_lien
+	{
+		margin-right: 10%;
+	}
+
+	.contact_lien
+	{
+		margin-left: 10%;
+	}
+
+/* Ici on gère la taille de l'affichage principal main */
+#main, #main_other
+		{
+		width: 80%;
+		
+		padding-top: 0.5em;
+		padding-bottom: 1em;
+		padding-right: 2em;
+		padding-left: 2em;
+		}
+}
+
+
+@media all and (max-width: 600px)
+{
+
+		.liens, .liensvideos, .liensphotos
+	{
+			font-size: 0.85em;
+
+			letter-spacing: 0.0em;
+	}
+
+	.puces
+	{
+
+		margin-right: 0.5%;
+		margin-left: 0.5%;
+	}
+
+	.CMBtitre
+		{
+			width: 80vw;
+		}
+
+	.pucessm
+	{
+		font-size: 15px;
+
+	}
+
+	.tipeee
+		{
+			height: 15px;
+		}
+
+	/* Ici on règle le footer */
+.liens_footer
+	{
+		font-size: 0.8em;
+	}
+
+	.credits_lien
+	{
+		margin-right: 5%;
+	}
+
+	.contact_lien
+	{
+		margin-left: 5%;
+	}
+
+/* Ici on gère la taille de l'affichage principal main */
+#main
+		{
+		width: 95vw;
+		
+		padding-top: 0.5em;
+		padding-bottom: 1em;
+		padding-right: 2.5vw;
+		padding-left: 2.5vw;
+		}
+#main_other 
+		{
+		width: 95vw;
+
+		padding-right: 2.5vw;
+		padding-left: 2.5vw;
+		}
+
+}

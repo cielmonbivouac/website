@@ -1,0 +1,66 @@
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 5.5em;
+
+			margin-top: 0.1em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 5.5em;
+
+			margin-top: 0.1em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 5.5em;
+
+			margin-top: 0.1em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+}
+
+
+@media all and (max-width: 600px)
+{
+	/* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 3.3em;
+
+			margin-top: 0.1em;
+		}
+
+		.image_illustration
+		{
+			width: 80%;
+		}
+}

@@ -1,0 +1,1266 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+}
+
+.titre_image_logo
+{
+    width:  15em;
+    margin: -1.5em; 
+}
+
+/* Mise en page de l'intro */
+#main_bis
+{
+	text-align: center;
+
+		width: 60%;
+		background-color: rgba(0, 0, 0, 0.7);
+		margin: auto;
+		padding-top: 3em;
+		padding-bottom: 1em;
+		padding-right: 2em;
+		padding-left: 2em;
+		border: 0;
+		border-top: 0em;
+		
+		position: relative;
+		z-index: 2;
+
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+
+		color: white;
+
+}
+
+#headersection
+{
+	position: relative;
+
+	width: 100%;
+	height: 6em;
+	margin-top: 0.5em;
+
+}
+
+.imagelogo_page
+{
+	position: absolute;
+	z-index: 3;
+
+
+
+	width: inherit;
+	height: inherit;
+
+	opacity: 0.8;
+}
+
+
+#descriptionpage
+{
+	width: 100%;
+	margin-bottom: 0em;
+
+}
+
+/* .h1
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: none;
+
+	font-size: 2em;
+	letter-spacing: 0.2em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 1em;
+} */
+
+#titre_h1
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+	text-align: center;
+
+	text-transform: uppercase;
+		
+	text-decoration: none;
+
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0.2em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	text-shadow: 0px 0px 0px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
+/* Fin de l'intro */ 
+
+
+#main_accueil
+{
+	position: relative;
+	z-index: 2;
+
+	/* background-image: url("../../images/background/fond-point.png"); */
+
+	width: 100%;
+
+	padding-bottom: 4vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.main_section
+{
+	width: inherit;
+
+	margin-top: 2em;
+
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.section_site
+{
+	width: 25%;
+
+	border-radius: 20px;
+	border-color: white;
+	border-width: 2px;
+	background-color: rgba(0, 0, 0, 0.7);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	
+	margin-bottom: 3em;
+}
+
+
+
+.section_site:hover
+{
+    transform: scale(1.05);
+    transition-duration: 750ms;
+    transition-timing-function: ease;
+
+
+}
+
+.section_site h1
+{
+	color: white;
+
+	text-align: center;
+
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 1.5em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 0.5em;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
+.section_site p
+{
+	color: white;
+
+	text-align: center;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	/* margin-top: 4vh; */
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
+
+
+/* Ici, gestion de Tipeee, subscribe */
+.p_intro
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 3em;
+	margin-right: 3em;
+
+	background-color: rgba(252, 138, 138, 0.5);
+	box-shadow: none;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.5em;
+
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#tipeee_div
+{
+	display: flex;
+
+	justify-content: space-between;
+
+	align-items: center;
+
+	margin-top: 3em;
+	margin-bottom: 3em;
+
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#tipeee_photos
+{
+ 	width: 22%;
+
+ 	text-align: center;
+}
+
+#tipeee_p-tot
+{
+	width: 75%;
+	margin: 0;
+}
+.tipeee_p
+{
+	margin-left: 0;
+	margin-right: 0;
+
+	margin-bottom: 0.5em;
+}
+
+.tipeee_p_center
+{
+	text-align: center;
+
+	color: red;
+
+	font-weight: bold;
+}
+
+.h2_tipeee
+{
+	text-align: center;
+
+	text-decoration: underline;
+
+	font-size: 1.2em;
+
+	margin-bottom: 1em;
+}
+
+.p_center
+{
+	font-size: 1.75em;
+	line-height: 1.5em;
+
+	text-align: center;
+
+	margin-top: 1em;
+	}
+
+.images_gauche
+{
+
+	margin-top: 3em;
+
+	width: 90%;
+
+	animation: tipeeevibr 5s ease-out infinite;
+	-moz-animation: tipeeevibr 5s ease-out infinite; /* Firefox */
+    -webkit-animation: tipeeevibr 5s ease-out infinite; /* Safari et Chrome */
+    -o-animation: tipeeevibr 5s ease-out infinite; /* Opera */
+}
+
+.images_gauche:hover
+{
+	width: 100%;
+	transition-duration: 500ms; 
+}
+/* Fin de Tipeee Subscribe */
+
+
+.strong
+{
+	color: orange;
+
+	text-align: center;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	text-decoration: underline;
+
+	margin-bottom: 2em;
+
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.section_site_big
+{
+	width: 64%;
+	min-height: inherit;
+
+	border-radius: 20px;
+
+	background-color: rgba(0, 0, 0, 0.7);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	margin-bottom: 4em;
+}
+
+.section_site_big h1
+{
+	color: red;
+
+	text-align: center;
+
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 2em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
+.description_main
+{
+	color: white;
+
+
+	text-align: justify;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	/* margin-top: 4vh; */
+	/* margin-left: 3em;
+	margin-right: 3em; */
+
+	text-shadow: 0px 0px 0px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+
+}
+
+.description_main .p, .p_center, .description_main ul
+{
+	margin-bottom: 1em;
+
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.description_main li 
+{
+
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+
+blockquote
+{
+	text-align: center;
+
+	width: 50%;
+
+	margin: auto;
+
+	color: #e2e2e2;
+
+	font-size: 1.5em;
+
+	line-height: 2em; 
+
+	background-color: rgba(255, 215, 0, 0.5);
+}
+
+blockquote h4
+{
+	text-align: right;
+
+	color: white;
+
+	font-weight: 1em;
+}
+
+.description_main strong
+{
+	color: orange;
+
+	font-weight: bold;
+}
+
+.description_main a
+{
+	text-decoration: underline;
+}
+
+.description_main a:hover
+{
+	color: red;
+}
+
+.description_main legend
+{
+	color: grey;
+
+	text-align: right;
+
+	position: absolute;
+	z-index: 1;
+	bottom: 2.5em;
+	right: 0.5em;
+
+	font-style: italic;
+	font-weight: 0.7em;
+	font-family: Calibri; "Comic Sans MS", Helvetica, sans-serif;
+}
+
+.images_div
+{
+	position: relative;
+
+	z-index: 1;
+}
+
+.images_ethique
+{
+	width : 100%;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+
+.fin-texte
+{
+
+	text-align: center;
+
+	font-size: 2em;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+}
+
+
+
+
+/* Javascript intéraction */
+.lien_js_open
+{
+	color: white;
+
+	text-align: center;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	text-decoration: underline;
+
+	margin-bottom: 2em;
+
+	display: block;
+}
+
+.lien_js_open:hover
+{
+	color: red;
+
+	transition-duration: 750ms;
+    transition-timing-function: ease;
+
+	 cursor: pointer;
+}
+
+.lien_js_close
+{
+	display: none;
+}
+
+.js_masquer
+{
+	display: none;
+}
+
+.js_open
+{
+	display: block;
+	position: relative;
+	z-index: 1;
+
+	margin-bottom: 2em;
+
+		animation: fadeinsec 2s ease;
+    -moz-animation: fadeinsec 2s ease; /* Firefox */
+    -webkit-animation: fadeinsec 2s ease; /* Safari et Chrome */
+    -o-animation: fadeinsec 2s ease; /* Opera */
+}
+
+/* Fin de JS */
+
+#videos_anim
+{
+	 animation: fadein 1s; 
+}
+
+#photos_anim
+{
+	 animation: fadein 1.5s; 
+}
+
+#itineraire_anim
+{
+	 animation: fadein 2s; 
+}
+
+#materiel_anim
+{
+	 animation: fadein 2.5s; 
+}
+
+#ethique_anim
+{
+	 animation: fadein 3s; 
+}
+
+#mecenat_anim
+{
+	 animation: fadein 3.5s; 
+}
+
+/* Partie Animation */
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    75%
+    {
+    	opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    0% {
+        opacity:0;
+    }
+    75%
+    {
+    	opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    0% {
+        opacity:0;
+    }
+    75%
+    {
+    	opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    0% {
+        opacity:0;
+    }
+    75%
+    {
+    	opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes fadeinsec {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinsec { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinsec { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinsec { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes tipeeevibr {
+    0% {
+        transform : rotate(0);
+    }
+    72.5%
+    {
+    	transform : rotate(0);
+    }
+    75%
+    {
+    	transform : rotate(10deg);
+    }
+    77.5%
+    {
+    	transform : rotate(-9deg);
+    }
+    80%
+    {
+ 		transform : rotate(8deg);
+    }
+    82.5%
+    {
+    	transform : rotate(-7deg);
+    }
+    85% {
+        transform : rotate(6deg);
+    }
+    87.5%
+    {
+    	transform : rotate(-5deg);
+    }
+    90%
+    {
+    	transform : rotate(4deg);
+    }
+    92.5%
+    {
+    	transform : rotate(-3deg);
+    }
+    95%
+    {
+    	transform : rotate(2deg);
+    }
+    97.5%
+    {
+    	transform : rotate(-1deg);
+    }
+    100%
+    {
+    	transform : rotate(0deg);
+    }
+}
+@-moz-keyframes tipeeevibr { /* sur Firefox */
+        0% {
+        transform : rotate(0);
+    }
+    72.5%
+    {
+    	transform : rotate(0);
+    }
+    75%
+    {
+    	transform : rotate(10deg);
+    }
+    77.5%
+    {
+    	transform : rotate(-9deg);
+    }
+    80%
+    {
+ 		transform : rotate(8deg);
+    }
+    82.5%
+    {
+    	transform : rotate(-7deg);
+    }
+    85% {
+        transform : rotate(6deg);
+    }
+    87.5%
+    {
+    	transform : rotate(-5deg);
+    }
+    90%
+    {
+    	transform : rotate(4deg);
+    }
+    92.5%
+    {
+    	transform : rotate(-3deg);
+    }
+    95%
+    {
+    	transform : rotate(2deg);
+    }
+    97.5%
+    {
+    	transform : rotate(-1deg);
+    }
+    100%
+    {
+    	transform : rotate(0deg);
+    }
+}
+@-webkit-keyframes tipeeevibr { /* sur Safari et Chrome */
+        0% {
+        transform : rotate(0);
+    }
+    72.5%
+    {
+    	transform : rotate(0);
+    }
+    75%
+    {
+    	transform : rotate(10deg);
+    }
+    77.5%
+    {
+    	transform : rotate(-9deg);
+    }
+    80%
+    {
+ 		transform : rotate(8deg);
+    }
+    82.5%
+    {
+    	transform : rotate(-7deg);
+    }
+    85% {
+        transform : rotate(6deg);
+    }
+    87.5%
+    {
+    	transform : rotate(-5deg);
+    }
+    90%
+    {
+    	transform : rotate(4deg);
+    }
+    92.5%
+    {
+    	transform : rotate(-3deg);
+    }
+    95%
+    {
+    	transform : rotate(2deg);
+    }
+    97.5%
+    {
+    	transform : rotate(-1deg);
+    }
+    100%
+    {
+    	transform : rotate(0deg);
+    }
+}
+@-o-keyframes tipeeevibr { /* sur Opera */
+        0% {
+        transform : rotate(0);
+    }
+    72.5%
+    {
+    	transform : rotate(0);
+    }
+    75%
+    {
+    	transform : rotate(10deg);
+    }
+    77.5%
+    {
+    	transform : rotate(-9deg);
+    }
+    80%
+    {
+ 		transform : rotate(8deg);
+    }
+    82.5%
+    {
+    	transform : rotate(-7deg);
+    }
+    85% {
+        transform : rotate(6deg);
+    }
+    87.5%
+    {
+    	transform : rotate(-5deg);
+    }
+    90%
+    {
+    	transform : rotate(4deg);
+    }
+    92.5%
+    {
+    	transform : rotate(-3deg);
+    }
+    95%
+    {
+    	transform : rotate(2deg);
+    }
+    97.5%
+    {
+    	transform : rotate(-1deg);
+    }
+    100%
+    {
+    	transform : rotate(0deg);
+    }
+}
+
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 800px) and (max-width: 1280px)
+{
+/* On met en page le header de la page : taille du logo / de l'image / etc... */
+        .titre_image_logo
+        {
+            width: 10em;
+
+            margin-top: -0.6em;
+        }
+
+        .image_illustration
+        {
+            width: 80%;
+        }
+
+        /* Ici on gère la taille de l'affichage principal main */
+        #main_bis
+        {
+        width: 80vw;
+        
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        }
+
+        #headersection {
+        height: 7em;
+        margin-top: 1em;
+        }
+
+        #main_accueil {
+        /* width: 100%;
+        padding-bottom: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; */
+        }
+
+            /* Mise en page des bulles */
+
+        .section_site {
+        width: 25vw;
+
+        padding-right: 2vw;
+        padding-left: 2vw;
+
+        margin-bottom: 1em;
+        }
+
+        .section_site h1 {
+        font-size: 1.5em;
+        letter-spacing: 0.05em;
+        }
+
+        .section_site p {
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        }
+
+            /* Mise en page de la section principale */
+        .section_site_big {
+    width: 85vw;
+
+    padding-right: 2vw;
+    padding-left: 2vw;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-bottom: 4em;
+        }
+
+        .section_site_big h1 {
+    
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+    }
+
+        .description_main p, .description_main ul {
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        }
+
+        .description_main legend {
+        display: none;
+        }
+
+        .fin-texte {
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+    /* On met en page le header de la page : taille du logo / de l'image / etc... */
+        .titre_image_logo
+        {
+            width: 10em;
+
+            margin-top: -0.8em;
+        }
+
+        .image_illustration
+        {
+            width: 80%;
+        }
+
+        /* Ici on gère la taille de l'affichage principal main */
+        #main_bis
+        {
+        width: 90vw;
+        
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        }
+
+        #headersection {
+        height: 4em;
+        margin-top: 1em;
+        }
+
+        #main_accueil {
+        /* width: 100%;
+        padding-bottom: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; */
+        }
+
+            /* Mise en page des bulles */
+        .main_section {
+        margin-top: 2em;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .section_site {
+        width: 90vw;
+
+        padding-right: 2vw;
+        padding-left: 2vw;
+
+        margin-bottom: 1em;
+        }
+
+        .section_site h1 {
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+        }
+
+        .section_site p {
+        font-size: 0.9em;
+        letter-spacing: 0.05em;
+        }
+
+            /* Mise en page de la section principale */
+        .section_site_big {
+    width: 90%;
+
+    padding-right: 2vw;
+    padding-left: 2vw;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-bottom: 4em;
+        }
+
+        .p_intro {
+    font-size: 0.9em;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+        }
+
+        .p_center {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+        }
+
+        .description_main p, .description_main ul {
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        }
+
+        .section_site_big h1
+        {
+            font-size: 1.5em;
+        }
+
+        .description_main legend {
+        display: none;
+        }
+
+        .fin-texte {
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        }
+
+    /* Tipeee div */
+    #tipeee_div {
+    flex-direction: column;
+
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+        }
+
+    #tipeee_photos
+        {
+    width: 25%;
+        }
+
+    #tipeee_p-tot {
+    width: 100%;
+        }
+
+    #titre_h1 {
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+    }
+
+}
+
+
+@media all and (max-width: 600px)
+{
+    /* On met en page le header de la page : taille du logo / de l'image / etc... */
+        .titre_image_logo
+        {
+            width: 5em;
+
+            margin-top: -0.3em;
+        }
+
+        .image_illustration
+        {
+            width: 80%;
+        }
+
+        /* Ici on gère la taille de l'affichage principal main */
+        #main_bis
+        {
+        width: 90vw;
+        
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        }
+
+        #headersection {
+        height: 4em;
+        margin-top: 1em;
+        }
+
+        #main_accueil {
+        /* width: 100%;
+        padding-bottom: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; */
+        }
+
+            /* Mise en page des bulles */
+        .main_section {
+        margin-top: 2em;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .section_site {
+        width: 90vw;
+
+        padding-right: 2vw;
+        padding-left: 2vw;
+
+        margin-bottom: 1em;
+        }
+
+        .section_site h1 {
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+        }
+
+        .section_site p {
+        font-size: 0.9em;
+        letter-spacing: 0.05em;
+        }
+
+            /* Mise en page de la section principale */
+        .section_site_big {
+    width: 90%;
+
+    padding-right: 2vw;
+    padding-left: 2vw;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-bottom: 4em;
+        }
+
+        .p_intro {
+    font-size: 0.9em;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+        }
+
+        .p_center {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+        }
+
+        .description_main p, .description_main ul {
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        }
+
+        .section_site_big h1
+        {
+            font-size: 1.5em;
+        }
+
+        .description_main legend {
+        display: none;
+        }
+
+        .fin-texte {
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        }
+
+    /* Tipeee div */
+    #tipeee_div {
+    flex-direction: column;
+
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+        }
+
+    #tipeee_photos
+        {
+    width: 50%;
+        }
+
+    #tipeee_p-tot {
+    width: 100%;
+        }
+
+    #titre_h1 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    }
+}

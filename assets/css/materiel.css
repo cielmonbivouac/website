@@ -1,0 +1,713 @@
+.titre_image_logo
+{
+	width: 8em;
+	margin-top: -2.5em;
+}
+
+.description_hidden, .show_description_none
+{
+	display: none;
+}
+
+.description_open
+{
+	display : block;
+
+	animation: fadein 1s ease;
+    -moz-animation: fadein 1s ease; /* Firefox */
+    -webkit-animation: fadein 1s ease; /* Safari et Chrome */
+    -o-animation: fadein 1s ease; /* Opera */
+}
+
+.show_description
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+
+	/* text-transform: uppercase; */
+	
+	text-align: center;
+	text-decoration: underline;
+
+	font-size: 1.1em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	cursor: pointer;
+
+	margin-top: 0;
+}
+
+#menu_materiel
+{
+
+	width: 100%;
+	height: 70px;
+
+	padding: 0;
+
+	display: flex;
+
+	margin-top: 3em;
+	margin-bottom: 2em;
+
+
+	flex-wrap: wrap;
+
+
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 1.3em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	border: 3px solid black;
+}
+
+
+.itemmenu_close
+{
+	width: 20%;
+	height: inherit;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	display: grid;
+	text-align: center;
+	align-items: center;
+
+	cursor: pointer;
+
+	transition-duration: 0.5s;
+}
+
+.itemmenu_close:hover
+{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.itemmenu_open
+{
+	width: 20%;
+	height: inherit;
+	background-color: rgba(152, 194, 193, 0.4);
+
+	display: grid;
+	text-align: center;
+	align-items: center;
+}
+
+.close
+{
+	display: none;
+}
+
+.open
+{
+	display: block;
+
+	animation: fadein 2s ease;
+    -moz-animation: fadein 2s ease; /* Firefox */
+    -webkit-animation: fadein 2s ease; /* Safari et Chrome */
+    -o-animation: fadein 2s ease; /* Opera */
+}
+
+/* Mise en page du matériel */
+
+
+
+#vetements
+{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.item_materiel
+{
+	background-color: rgba(152, 194, 193, 0.15);
+
+	padding-bottom: 0.5em;
+
+	margin-bottom: 2em;
+}
+
+.images_materiel
+{
+	width: 25%;
+	height: auto;
+	max-height: 220px;
+
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 1em;
+}
+
+.images_materiel img
+{
+	max-height: 90%;
+	max-width: 100%;
+
+	text-align: center;
+}
+.images_marques
+{
+	width: 15%;
+
+	margin-top: 1em;
+
+	padding-right: 1%;
+}
+
+.images_marques img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.caracteristique
+{
+	width: 60%;
+}
+
+/* Ici, on gère les div de commentaire du matos, des points positifs en négatifs */
+.avis
+{
+	display: flex;
+
+
+}
+
+.p_avis
+{
+	width: 60%;
+	justify-content: space-between;
+
+	text-align: justify;
+
+	border-right: 1px dotted rgba(222, 220, 220, 0.8);
+	
+	padding-left: 3%; padding-right: 3%; padding-top: 0.5%; padding-bottom: 0.5%;
+}
+
+.notes_positives
+{
+	width: 20%;
+
+		border-right: 1px dotted rgba(222, 220, 220, 0.8);
+
+	padding-left: 1.5%; padding-right: 1.5%; padding-top: 0.25%; padding-bottom: 0.25%;
+}
+
+.notes_negatives
+{
+	width: 20%;
+
+	padding-left: 1.5%; padding-right: 1.5%; padding-top: 0.25%; padding-bottom: 0.25%;
+}
+
+/* Fin commentaire positigs, négatifs, etc ... */
+
+.caracteristique-et-photos
+{
+	display: flex;
+	justify-content: space-between;
+
+	margin-bottom: 0.5em;
+
+
+}
+
+.liste_caracteristiques_materiel
+{
+	text-align: left;
+}
+
+.puces_materiel
+{
+	padding-left: 10px;
+}
+
+
+
+.h1_materiel
+{
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+	
+	color: rgba(152, 194, 193, 1);
+
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 0.5em;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+.h2_materiel
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 1.3em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 0.5em;
+}
+
+.h3_materiel
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 1em;
+	letter-spacing: 0.3em;
+
+	margin-bottom: 0.5em;  
+}
+
+.liste_caracteristiques_materiel
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: none;
+	text-decoration: none;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.7em; 
+
+	margin-bottom: 0.5em;
+}
+
+.p_avis
+{
+		font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: none;
+	text-decoration: none;
+
+	font-size: 0.9em;
+
+	line-height: 1.6em; 
+}
+
+.avis_ens_puces
+{
+	height: 80%;
+
+	align-items: space-around;
+	display: grid;
+}
+
+.avis_puces
+{
+		font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+
+	text-transform: none;
+	text-decoration: none;
+
+	font-size: 0.95em; 
+
+	list-style-type: none;
+
+	margin-bottom: 1.5em;
+}
+
+.titres_puces
+{
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.lien_sponso
+{
+	margin-top: 1em;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: none;
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+
+	font-size: 1em;
+	letter-spacing: 0.3em;
+
+	margin-bottom: 0.5em;  
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+/* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 6em;
+
+			margin-top: -1.5em;
+		}
+
+		.videoyoutube_header {
+    width: 70vw;
+    height: 39.5vw;
+		}
+
+		/* Menu du matériel */
+
+	#menu_materiel {
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+		}
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+/* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 6em;
+
+			margin-top: -1.4em;
+		}
+
+		.videoyoutube_header {
+    width: 70vw;
+    height: 39.5vw;
+		}
+
+		/* Menu du matériel */
+
+	#menu_materiel {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+		}
+
+		/* Tailles polices description matériel */
+		.h1_materiel {
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    	}
+
+    	.h2_materiel {
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+		}
+
+		/* Réglages images matériel et marques */
+	.caracteristique-et-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+		}
+
+	.images_materiel
+	{
+	width: 30%;
+
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 0em;
+	padding-bottom: 1em;
+	}
+
+	.images_materiel img
+	{
+	max-height: 90%;
+	max-width: 100%;
+
+	text-align: center;
+	}
+	.images_marques
+	{
+	width: 25%;
+
+	margin-top: 0.5em;
+
+	padding-right: 1%;
+	}
+
+	.images_marques img
+	{
+	max-height: 100%;
+	max-width: 100%;
+	}
+
+	/* Description des caractéristiques du matos */
+	.caracteristique {
+    width: 100%;
+		}
+
+	.liste_caracteristiques_materiel {
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    margin-bottom: 0.5em;
+		}
+
+	.puces_materiel
+	{
+		list-style-type: none;
+	}
+
+	/* Ici, on gère les avis et les commentaires matos */
+	.avis
+	{
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: space-between;
+	}
+
+	.p_avis
+	{
+	width: 95vw;
+	justify-content: space-between;
+
+	text-align: justify;
+
+	border-right: none;
+	
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.5%; padding-bottom: 0.5%;
+
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 2em;
+	}
+
+	.notes_positives
+	{
+	display: none;
+
+	width: 40vw;
+
+	border-right: 1px dotted rgba(222, 220, 220, 0.8);
+
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.25%; padding-bottom: 0.25%;
+	}
+
+	.notes_negatives
+	{
+	display: none;
+
+	width: 40vw;
+
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.25%; padding-bottom: 0.25%;
+	}
+
+	.avis_puces {
+    font-size: 0.9em;
+	}
+}
+
+
+@media all and (max-width: 600px)
+{
+/* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 4em;
+
+			margin-top: -1em;
+		}
+
+		.videoyoutube_header {
+    width: 70vw;
+    height: 39.5vw;
+		}
+
+		/* Menu du matériel */
+
+	#menu_materiel {
+    font-size: 0.8em;
+    letter-spacing: 0.0em;
+		}
+
+		/* Tailles polices description matériel */
+		.h1_materiel {
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    	}
+
+    	.h2_materiel {
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+		}
+
+		/* Réglages images matériel et marques */
+	.caracteristique-et-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+		}
+
+	.images_materiel
+	{
+	width: 30%;
+
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 0em;
+	padding-bottom: 1em;
+	}
+
+	.images_materiel img
+	{
+	max-height: 90%;
+	max-width: 100%;
+
+	text-align: center;
+	}
+	.images_marques
+	{
+	width: 25%;
+
+	margin-top: 0.5em;
+
+	padding-right: 1%;
+	}
+
+	.images_marques img
+	{
+	max-height: 100%;
+	max-width: 100%;
+	}
+
+	/* Description des caractéristiques du matos */
+	.caracteristique {
+    width: 100%;
+		}
+
+	.liste_caracteristiques_materiel {
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    margin-bottom: 0.5em;
+		}
+
+	.puces_materiel
+	{
+		list-style-type: none;
+	}
+
+	/* Ici, on gère les avis et les commentaires matos */
+	.avis
+	{
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: space-between;
+	}
+
+	.p_avis
+	{
+	width: 95vw;
+	justify-content: space-between;
+
+	text-align: justify;
+
+	border-right: none;
+	
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.5%; padding-bottom: 0.5%;
+
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 2em;
+	}
+
+	.notes_positives
+	{
+		display: none;
+
+	width: 40vw;
+
+	border-right: 1px dotted rgba(222, 220, 220, 0.8);
+
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.25%; padding-bottom: 0.25%;
+	}
+
+	.notes_negatives
+	{
+	display: none;
+
+	width: 40vw;
+
+	padding-left: 1vw; padding-right: 1vw; padding-top: 0.25%; padding-bottom: 0.25%;
+	}
+
+	.avis_puces {
+    font-size: 0.9em;
+	}
+
+}

@@ -1,0 +1,992 @@
+.titre_image_logo
+{
+	width: 13em;
+	margin-top: -1.5em;
+}
+
+.item_route
+{
+	background-color: rgba(219, 175, 64, 0.15);
+
+	padding-bottom: 0.5em;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+
+	margin-bottom: 2em;
+
+	position: relative;
+}
+
+.item_route_black
+{
+	background-color: rgba(0, 0, 0, 0.5);
+
+	padding-bottom: 0.5em;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+
+	margin-bottom: 2em;
+
+	position: relative;
+}
+
+.h1_route
+{
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+	
+	color: orange;
+
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 0.5em;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+.images_route_left
+{
+	width: 18vw;
+
+	float: left;
+
+	margin-right: 1.5vw;
+	margin-bottom: 0.2vw;
+}
+
+.images_route_right
+{
+	width: 18vw;
+
+	float: right;
+
+	margin-left: 1.5vw;
+	margin-bottom: 0.2vw;
+}
+
+.images_route_inner
+{
+	width: 100%;
+	max-height: 100%;
+}
+
+.images_route_legend
+{
+	text-align: center;
+
+	margin-top: 0.5em;
+
+	color: orange;
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+}
+
+.p_route
+{
+		font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: none;
+	text-decoration: none;
+
+	font-size: 0.9em;
+
+	line-height: 1.6em; 
+
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+
+.p_contact
+{
+		font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+		text-align: center;
+
+	font-style: italic;
+	font-weight: none;
+	text-transform: none;
+	text-decoration: none;
+
+	font-size: 1em;
+
+	line-height: 1.6em; 
+
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+
+.p_contact a
+{
+	font-weight: bold;
+}
+
+.p_contact a:hover
+{
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.welldone_image_right
+{
+	width: 3.5vw;
+
+	float: right;
+
+	position: absolute;
+
+	right: -20px;
+	top: -20px;
+}
+
+.welldone_image_left
+{
+	width: 3.5vw;
+
+	float: left;
+
+	position: absolute;
+	left: -20px;
+	top: -20px;
+}
+
+.drapeau_image_left
+{
+	width: 4vw;
+
+	float: left;
+
+	position: absolute;
+	left: -25px;
+	top: -20px;
+
+	rotate: -25deg; 
+}
+
+.drapeau_image_right
+{
+	width: 4vw;
+
+	float: right;
+
+	position: absolute;
+	right: -25px;
+	top: -10px;
+
+	rotate: -25deg; 
+}
+
+
+/* Ici, on définie le menu */
+#menu_itineraire
+{
+	position: fixed;
+
+	top: 10vh;
+	left: 4vw;
+
+
+	height: 80vh;
+	width: 10vw;
+
+	margin: 0;
+
+	z-index: 1000000;
+}
+
+#menu_itineraire li
+{
+	color: white;
+
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 1.1em;
+
+	line-height: 1.6em; 
+
+	list-style-type: none;
+
+	margin-top: 0.7em;
+}
+.open
+{
+	
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+	animation: fadein 3s ease;
+    -moz-animation: fadein 3s ease; /* Firefox */
+    -webkit-animation: fadein 3s ease; /* Safari et Chrome */
+    -o-animation: fadein 3s ease; /* Opera */
+}
+
+.close_ap
+{
+	display: block;
+
+	animation: fadeout 3s ease;
+    -moz-animation: fadeout 3s ease; /* Firefox */
+    -webkit-animation: fadeout 3s ease; /* Safari et Chrome */
+    -o-animation: fadeout 3s ease; /* Opera */
+}
+
+.close
+{
+	display: none;
+}
+
+
+#main_orientation
+{
+		width: 75%;
+		min-height: 86.5vh;
+		background-color: rgba(112, 128, 144, 0.5);
+		position: relative;
+		left: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		border-top: 0em;
+		
+		position: relative;
+		z-index: 1;
+
+		text-align: justify;
+		color: white;
+}
+
+#main_desc_orientation
+{
+	display: flex;
+	justify-content: space-around;
+
+	width: 100%;
+	min-height: 75vh;
+
+
+}
+
+#orientation
+{
+		width: 60%;
+		min-height: 100%;
+		background-color: rgba(176, 196, 222, 0.5);
+
+		border-radius: 20px;
+}
+
+#autres_marche
+{
+		width: 35%;
+		min-height: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+}
+
+#rythme, #alimentation
+{
+	width: 100%;
+
+	background-color: rgba(176, 196, 222, 0.5);
+
+	border-radius: 20px;
+}
+
+.description-sousmenu
+{
+	padding: 3%;
+}
+
+.titremenu_h1_marche
+{
+font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.15em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 0.4em;
+
+	text-align: center;
+
+	text-shadow: 4px 4px 4px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+.h2_main-desc
+{
+	font-family: "Comic Sans MS", "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 1.2em;
+	letter-spacing: 0.15em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+
+	text-align: center;
+}
+
+.images_desc
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.description-sousmenu legend
+{
+	font-family: "Comic Sans MS", "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: rgb(233, 233, 233);
+
+	text-align: center;
+
+	font-style: italic;
+}
+
+.description-sousmenu p
+{
+	font-family: "Comic Sans MS", "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.9em;
+
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+
+	line-height: 1.5em;
+}
+
+/* Partie Rencontres */
+#main_rencontres
+{
+		width: 75%;
+		min-height: 86.5vh;
+		/* background-color: rgba(176, 139, 138, 0.5); */
+		background-color: rgba(168, 149, 149, 0.5);
+		position: relative;
+		float: right;
+		right: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		border-top: 0em;
+		
+		position: relative;
+		z-index: 1;
+
+		text-align: justify;
+		color: white;
+}
+
+#montage, #hebergement, #couchsurfing
+{
+	width: 100%;
+
+	background-color: rgba(176, 139, 138, 0.5);
+
+	border-radius: 20px;
+}
+
+#rencontres
+{
+		width: 60%;
+		min-height: 100%;
+		background-color: rgba(255, 127, 80, 0.5);
+
+		border-radius: 20px;
+}
+
+.description-sousmenu h3
+{
+	font-family: "Comic Sans MS", "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.9em;
+
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+
+	line-height: 1.5em;
+
+	text-align: center;
+
+	text-decoration: underline;
+}
+
+#hebergement
+	{
+	margin-top: 1em;
+	}
+
+	#couchsurfing
+	{
+	margin-top: 1em;
+	}
+
+	#montage
+	{
+	margin-top: 1em;
+	}
+
+	#rythme, #alimentation {
+    margin-top: 1em;
+	}
+
+	.couchsurfing_image-logo
+	{
+		width: 50%;
+	}
+
+
+/* Partie Animation */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-moz-keyframes fadeout { /* sur Firefox */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fadeout { /* sur Safari et Chrome */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-o-keyframes fadeout { /* sur Opera */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 12em;
+
+			margin-top: -0.5em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+
+		.images_route_right
+		{
+
+	width: 40%;
+		}
+
+		.images_route_left
+		{
+
+	width: 40%;
+		}
+
+				/* Ici, on gère le main orientation et le main renconte */
+	#main_orientation
+	{
+
+	width: 80vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+		/* width: 75%;
+		min-height: 86.5vh;
+		
+		left: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		
+		position: relative;
+		z-index: 1; */
+	}
+
+	#main_desc_orientation {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 75vh;
+	}
+
+	#orientation {
+    width: 100%;
+    }
+
+    #autres_marche {
+    width: 100%;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	}
+
+	
+
+	/* Ici, on gère le panel rencontre */
+	#main_rencontres {
+    
+	width: 80vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+	}
+
+	#rencontres {
+    width: 100%;
+	}
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 11em;
+
+			margin-top: -0.5em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+
+		.images_route_right
+		{
+
+	width: 40%;
+		}
+
+		.images_route_left
+		{
+
+	width: 40%;
+		}
+
+				/* Ici, on gère le main orientation et le main renconte */
+	#main_orientation
+	{
+
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+		/* width: 75%;
+		min-height: 86.5vh;
+		
+		left: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		
+		position: relative;
+		z-index: 1; */
+	}
+
+	#main_desc_orientation {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 75vh;
+	}
+
+	#orientation {
+    width: 100%;
+    }
+
+    #autres_marche {
+    width: 100%;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	}
+
+	
+
+	/* Ici, on gère le panel rencontre */
+	#main_rencontres {
+    
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+	}
+
+	#rencontres {
+    width: 100%;
+	}
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+ /* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 10em;
+
+			margin-top: -0.4em;
+		}
+
+		.image_illustration
+		{
+			width: 70%;
+		}
+	/* Légende et illustration gauche droite */
+	.images_route_legend {
+   	display: block;
+    margin-top: 0.5em;
+   	}
+
+   	.images_route_left
+		{
+	width: 98%;
+
+	float: none;
+
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-top: 1em;
+		}
+
+		.images_route_right
+		{
+
+	width: 90%;
+	
+	float: none;
+
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-top: 1em;
+			
+	/* width: 18vw;
+
+	margin-left: 1.5vw;
+	margin-bottom: 0.2vw; */
+		}
+
+	.welldone_image_left {
+    width: 5vw;
+    
+    left: -0.35em;
+    top: -0.35em;
+		}
+
+	.welldone_image_right
+		{
+	width: 5vw;
+
+	right: -0.35em;
+	top: -0.35em;
+		}
+	.drapeau_image_left {
+    width: 6vw;
+    left: -0.40em;
+    top: -0.20em;
+		}
+	.drapeau_image_right {
+
+    width: 6vw;
+    right: -0.2em;
+    top: -0.2em;
+		}
+
+		/* Ici, on gère le main orientation et le main renconte */
+	#main_orientation
+	{
+
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+		/* width: 75%;
+		min-height: 86.5vh;
+		
+		left: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		
+		position: relative;
+		z-index: 1; */
+	}
+
+	#main_desc_orientation {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 75vh;
+	}
+
+	#orientation {
+    width: 100%;
+    }
+
+    #autres_marche {
+    width: 100%;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	}
+
+	
+
+	/* Ici, on gère le panel rencontre */
+	#main_rencontres {
+    
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+	}
+
+	#rencontres {
+    width: 100%;
+	}
+
+	.couchsurfing_image-logo
+	{
+		width: 35%;
+	}
+}
+
+
+@media all and (max-width: 600px)
+{
+	/* On met en page le header de la page : taille du logo / de l'image / etc... */
+		.titre_image_logo
+		{
+			width: 7em;
+
+			margin-top: -0.5em;
+		}
+
+		.image_illustration
+		{
+			width: 80%;
+		}
+	/* Légende et illustration gauche droite */
+	.images_route_legend {
+   	display: none;
+    margin-top: 0.5em;
+   	}
+
+   	.images_route_left
+		{
+	width: 90vw;
+
+	float: none;
+
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-top: 1em;
+		}
+
+		.images_route_right
+		{
+
+	width: 90vw;
+	
+	float: none;
+
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-top: 1em;
+			
+	/* width: 18vw;
+
+	margin-left: 1.5vw;
+	margin-bottom: 0.2vw; */
+		}
+
+	.welldone_image_left {
+    width: 5vw;
+    
+    left: -0.35em;
+    top: -0.35em;
+		}
+
+	.welldone_image_right
+		{
+	width: 5vw;
+
+	right: -0.35em;
+	top: -0.35em;
+		}
+	.drapeau_image_left {
+    width: 6vw;
+    left: -0.40em;
+    top: -0.20em;
+		}
+	.drapeau_image_right {
+
+    width: 6vw;
+    right: -0.2em;
+    top: -0.2em;
+		}
+
+	/* Ici, on gère le main orientation et le main renconte */
+	#main_orientation
+	{
+
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+		/* width: 75%;
+		min-height: 86.5vh;
+		
+		left: 3%;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-right: 2em;
+		padding-left: 2em;
+		
+		position: relative;
+		z-index: 1; */
+	}
+
+	#main_desc_orientation {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 75vh;
+	}
+
+	#orientation {
+    width: 100%;
+    }
+
+    #autres_marche {
+    width: 100%;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	}
+
+	
+
+	/* Ici, on gère le panel rencontre */
+	#main_rencontres {
+    
+	width: 98vw;
+	left: 0%;
+
+	padding-left: 1vw;
+	padding-right: 1vw;
+	}
+
+	#rencontres {
+    width: 100%;
+	}
+
+
+
+}
+

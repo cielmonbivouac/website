@@ -1,0 +1,465 @@
+#headersection
+{
+	position: relative;
+
+	width: 100%;
+	height: 6em;
+	margin-top: 2em;
+
+}
+
+		.imagelogo_page
+{
+	position: absolute;
+	z-index: 3;
+
+
+
+	width: inherit;
+	height: inherit;
+
+	opacity: 0.8;
+}
+
+.titrepage
+{
+	position: absolute;
+	z-index: 4;
+
+	width: inherit;
+	
+	font-weight: bold;
+	text-transform: uppercase;
+		
+	text-decoration: none;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+	text-shadow: 6px 6px 6px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+	
+	font-size: 3.5em;
+	letter-spacing: 0.1em;
+
+	margin-top: -0.15em;
+
+	text-shadow: 5px;
+}
+
+#descriptionpage
+{
+	width: 100%;
+	margin-bottom: 4em;
+
+}
+
+.h1
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: none;
+
+	font-size: 2em;
+	letter-spacing: 0.2em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 1em;
+}
+
+
+
+.bloc_descriptiontexte
+{
+	padding-bottom: 1em;
+
+	background-color: rgba(0, 0, 0, 0.5);
+
+	/* max-height: 75vh;
+	overflow: scroll; */
+}
+
+.h2
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.15em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+}	
+
+.h3_description
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+
+	/* text-transform: uppercase; */
+	
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 1.3em;
+	letter-spacing: 0.15em; 
+
+	color: #F74F5C;
+}
+
+.h4_description
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+
+	/* text-transform: uppercase; */
+	
+	text-align: center;
+	text-decoration: underline;
+
+	font-size: 1em;
+	letter-spacing: 0.15em; 
+
+	color: #F74F5C;
+
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+
+.h3
+{
+	font-family: "Source Sans Pro", "Comic Sans MS", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+	
+	text-align: center;
+	text-decoration: underline;
+
+	font-size: 1.3em;
+	letter-spacing: 0.1em; 
+
+}
+
+.description_texte, .description_open
+{
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+
+	/* text-transform: uppercase; */
+	
+	text-align: justify;
+	text-decoration: none;
+
+	font-size: 1.1em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	margin-right: 10%; margin-left: 10%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.titremenu
+{
+	color: #F74F5C;
+	text-decoration: underline;
+}
+
+.lienspages
+{
+font-family: "Comic Sans MS", Helvetica, sans-serif;
+
+	/* text-transform: uppercase; */
+	
+	text-align: justify;
+	text-decoration: none;
+
+	font-size: 1em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	margin-left: 7%; margin-right: 4%;
+	margin
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	list-style-type: disclosure-open;
+
+}
+
+.li
+{
+	margin-top: 0.5em;
+
+	padding-left: 0.5em;
+}
+
+#menu_video
+{
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+.titremenu_h1
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.15em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+	text-shadow: 4px 4px 4px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+.titremenu_h1_wm
+{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+
+	text-transform: uppercase;
+		
+	text-decoration: underline;
+
+	font-size: 2em;
+	letter-spacing: 0.15em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 1em;
+
+	text-align: center;
+
+	text-shadow: 4px 4px 4px black, 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+
+.iframe-container{
+  position: relative;
+  width: 40%;
+  padding-bottom: 22.5%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h4
+{
+			text-transform: uppercase;
+		
+		text-decoration: none;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+		letter-spacing: 0.1em;
+		font-size: 1em;
+
+		line-height: 1.35em;
+
+}
+
+.videoyoutube_header
+{
+margin: auto;
+	position: relative;
+	width: 35vw;
+	height: 19.7vw;
+}
+
+.carte_header
+{	
+	margin-top: 2em;
+	margin-bottom: 2em;
+	position: relative;
+	width: 100%;
+	height: 40vw;
+}
+
+.videoyoutube_header iframe{
+  /* position: absolute; 
+  top:0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+}
+
+/* Media Queries */
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+	/* Ici on gère le header de la section main */
+		.h1
+		{
+			font-size: 1.5em;
+			letter-spacing: 0.2em; 
+
+			line-height: 1.5em; 
+		}
+
+	/* Ici, on règle l'affichage des cartes */
+	.carte_header
+		{	
+
+	width: 100%;
+	height: 70vh;
+		}
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+		/* Ici on gère le header de la section main */
+		.h1
+		{
+			font-size: 1.5em;
+			letter-spacing: 0.2em; 
+
+			line-height: 1.5em; 
+		}
+
+		/* Ici, on règle l'affichage des cartes */
+	.carte_header
+		{	
+
+	width: 100%;
+	height: 70vh;
+		}
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+		/* Ici on gère le header de la section main */
+		.h1
+		{
+			font-size: 1.3em;
+			letter-spacing: 0.15em; 
+
+			line-height: 1.3em; 
+		}
+
+		/* Ici, on règle l'affichage des cartes */
+	.carte_header
+		{	
+
+	width: 100%;
+	height: 70vh;
+		}
+}
+
+
+@media all and (max-width: 600px)
+{
+		.h1
+		{
+			font-size: 1.1em;
+			letter-spacing: 0.05em; 
+
+			line-height: 1.3em; 
+		}
+
+		.titrepage
+		{
+	font-weight: bold;
+	
+	font-size: 2em;
+	letter-spacing: 0.1em;
+
+	margin-top: -0.15em;
+
+		}
+
+		#headersection
+		{
+			height: 3em;
+			margin-top: 1em;
+		}
+
+		/* Carré de description de la page : Note de l'auteur, etc... */
+		.h2
+		{
+	font-size: 1.3em;
+	letter-spacing: 0.1em; 
+
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+		}
+
+		.description_texte, .description_open
+		{
+	text-align: justify;
+
+	font-size: 1em;
+	letter-spacing: 0.05em; 
+
+	line-height: 1.5em; 
+
+	margin-right: 5%; margin-left: 5%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+		}
+
+	/* On rentre dans le menu vidéo, que je garde dans le innerwebsite, 
+	au cas où ce soit réutilisé ailleurs, mais j'en doute. Au cas où, à déplacer dans
+	vidéo.css */
+	#menu_video
+	{
+	display: none;
+
+	margin-top: 2em;
+	margin-bottom: 4em;
+	}
+			/* A rajouter toute la mep quand c'est pas en display = none */
+
+	/* Ici, on modifie le titre des menus de la web-série */
+	.titremenu_h1
+		{
+	font-size: 1.7em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	margin-top: 2em;
+	margin-bottom: 1em;
+		}
+
+		.titremenu_h1_wm
+		{
+	font-size: 1.7em;
+	letter-spacing: 0.1em; 
+
+	line-height: 1.5em; 
+
+	margin-bottom: 1em;
+		}
+
+	/* Ici, on règle l'affichage des cartes */
+	.carte_header
+		{	
+
+	width: 100%;
+	height: 70vw;
+		}
+
+}
